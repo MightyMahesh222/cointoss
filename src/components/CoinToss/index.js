@@ -16,12 +16,12 @@ class CoinToss extends Component {
       ? this.setState(prevState => ({
           total: prevState.total + 1,
           heads: prevState.heads + 1,
-          randomNum: {randomNum},
+          randomNum,
         }))
       : this.setState(prevState => ({
           total: prevState.total + 1,
           tails: prevState.tails + 1,
-          randomNum: {randomNum},
+          randomNum,
         }))
   }
 
